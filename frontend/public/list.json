@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Story Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725553891~exp=1725557491~hmac=7f602aec80bba718f49523a4e1b3e30c6c94a438932beb6c05e84da32b9ceb1b&w=740"
+    },
+    {
+        "id": 2,
+        "name": "Comedy Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725553891~exp=1725557491~hmac=7f602aec80bba718f49523a4e1b3e30c6c94a438932beb6c05e84da32b9ceb1b&w=740"
+    },
+    {
+        "id": 3,
+        "name": "History Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725553891~exp=1725557491~hmac=7f602aec80bba718f49523a4e1b3e30c6c94a438932beb6c05e84da32b9ceb1b&w=740"
+    },
+    {
+        "id": 4,
+        "name": "Comic Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725553891~exp=1725557491~hmac=7f602aec80bba718f49523a4e1b3e30c6c94a438932beb6c05e84da32b9ceb1b&w=740"
+    },
+    {
+        "id": 5,
+        "name": "Sciece Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 100,
+        "category": "Hundred",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725553891~exp=1725557491~hmac=7f602aec80bba718f49523a4e1b3e30c6c94a438932beb6c05e84da32b9ceb1b&w=740"
+    },
+    {
+        "id": 6,
+        "name": "Geography Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 5000,
+        "category": "Five Thousand",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725553891~exp=1725557491~hmac=7f602aec80bba718f49523a4e1b3e30c6c94a438932beb6c05e84da32b9ceb1b&w=740"
+    },
+    {
+        "id": 7,
+        "name": "General Knowledge Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 1000,
+        "category": "One Thousand",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725553891~exp=1725557491~hmac=7f602aec80bba718f49523a4e1b3e30c6c94a438932beb6c05e84da32b9ceb1b&w=740"
+    },
+    {
+        "id": 8,
+        "name": "English Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725553891~exp=1725557491~hmac=7f602aec80bba718f49523a4e1b3e30c6c94a438932beb6c05e84da32b9ceb1b&w=740"
+    },
+    {
+        "id": 9,
+        "name": "Basic Guide Book",
+        "title": "Lorem ipsum dolor sit amet.",
+        "price": 0,
+        "category": "free",
+        "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1725553891~exp=1725557491~hmac=7f602aec80bba718f49523a4e1b3e30c6c94a438932beb6c05e84da32b9ceb1b&w=740"
+    }
+]

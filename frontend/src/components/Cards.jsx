@@ -17,9 +17,9 @@ const Cards = () => {
     dots: true,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 3,
     slidesToScroll: 4,
-    initialSlide: 0,
+    initialSlide: 1,
     responsive: [
       {
         breakpoint: 1024,
@@ -50,39 +50,35 @@ const Cards = () => {
 
   return (
     <>
-      <div className="slider-container mt-4 p-4">
-        <Slider {...settings}>
-
-            {freeBook &&
-              freeBook.length > 0 &&
-              freeBook.map((book) => (
-                <div
-                  key={book.id}
-                  className="card hover:scale-105 duration-150 bg-base-50 w-full shadow-xl border border-slate-50 md:w-40"
-                >
-                  <figure>
-                    <img src={book.image} alt="book" />
-                  </figure>
-                  <div className="card-body">
-                    <h2 className="card-title">
-                      {book.name}!
-                      <div className="badge badge-secondary">
-                        {book.category}
-                      </div>
-                    </h2>
-                    <p>{book.title}</p>
-                    <div className="card-actions justify-between">
-                      <div className="badge badge-outline">
-                        &#8377;{book.price}
-                      </div>
-                      <div className="badge badge-outline cursor-pointer">
-                        Buy now
-                      </div>
+      <div className="slider-container mt-4 p-8">
+        <Slider {...settings} >
+          {freeBook &&
+            freeBook.length > 0 &&
+            freeBook.map((book) => (
+              <div
+                key={book.id}
+                className="card max-w-96 hover:scale-105 duration-150 bg-base-50  shadow-xl border border-slate-50 h-[550px]"
+              >
+                <figure className="w-full">
+                  <img src={book.image} alt="book" className="w-full"/>
+                </figure>
+                <div className="card-body">
+                  <h2 className="card-title">
+                    {book.name}!
+                    <div className="badge badge-secondary">{book.category}</div>
+                  </h2>
+                  <p>{book.title}</p>
+                  <div className="card-actions justify-between">
+                    <div className="badge badge-outline">
+                      &#8377;{book.price}
+                    </div>
+                    <div className="badge badge-outline cursor-pointer">
+                      Buy now
                     </div>
                   </div>
                 </div>
-              ))}
-          
+              </div>
+            ))}
         </Slider>
       </div>
     </>
